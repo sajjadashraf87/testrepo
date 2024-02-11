@@ -1,0 +1,93 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": false,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": true,
+    "manualPluginsInfo": [],
+    "exportSavedModelsRequiredVersions": false,
+    "exportNotebooksWithOutputs": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "cards",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 1888507
+      },
+      {
+        "name": "cards_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 550260
+      },
+      {
+        "name": "tx_joined",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 10725177
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [
+      {
+        "id": "eB0k3any",
+        "name": "tx",
+        "size": 38152964
+      },
+      {
+        "id": "jqBwVuQl",
+        "name": "merchants",
+        "size": 1077198
+      }
+    ],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "TUT_VISUAL_RECIPES",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "12.3.1",
+  "generatedWithDSSConfVersion": "12220",
+  "foreignObjects": [],
+  "exportedWithPlugins": [],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem",
+      "isMissing": false
+    },
+    "filesystem_folders": {
+      "name": "filesystem_folders",
+      "type": "Filesystem",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [],
+  "allowedMissingCodeEnvs": [],
+  "hasPartitionedDataset": false
+}
